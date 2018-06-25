@@ -1,0 +1,14 @@
+[masters]
+blue-1   region=infra      zone=default
+
+[nodes]
+blue-2   region=primary    zone=east      
+blue-3   region=primary    zone=east
+
+[nfs]
+blue-1
+
+# Uncomment if a new node is needed in the cluster
+# [newnodes]
+# blue-4    region=primary    zone=east
+

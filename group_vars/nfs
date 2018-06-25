@@ -1,0 +1,9 @@
+---
+# OpenShift volumes. Size is specified in Gi
+nfs-volumes:
+  - name: pv
+    size: 10
+    device: /dev/vdf
+    mountpoint: /exports/pv
+    label: pv
+    dir: data
